@@ -1,38 +1,21 @@
 phpRechnung
 ========
 
+README-EN - 31.01.2011
+phpRechnung is an easy-to-use, web-based multilingual accounting software.
+Copyright (C) 2001 - 2011 Edy Corak < edy@loenshotel.de >
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.  
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.  
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA  
 
-	README-EN - 31.01.2011
+To install phpRechnung 1.6.4 you will need:  
 
-	phpRechnung is an easy-to-use, web-based multilingual accounting software.
-	Copyright (C) 2001 - 2011 Edy Corak < edy at loenshotel dot de >
-
-	This program is free software; you can redistribute it and/or modify
-	it under the terms of the GNU General Public License as published by
-	the Free Software Foundation; either version 2 of the License, or
-	(at your option) any later version.
-
-	This program is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	GNU General Public License for more details.
-
-	You should have received a copy of the GNU General Public License
-	along with this program; if not, write to the Free Software
-	Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-
-
-To install phpRechnung 1.6.4 you will need:
-
-------
 Server
-------
+- Web server:
+- Apache, Lighttpd oder auch ( Microsoft IIS - not tested )
 
-Web server:
-Apache, Lighttpd oder auch ( Microsoft IIS - not tested )
-
-PHP:
-PHP 5 - ( mbstring, PEAR::Mail, Mail_Mime is required )
+- PHP:
+- PHP 5 - ( mbstring, PEAR::Mail, Mail_Mime is required )
 
 MySQL: ( Starting from phpRechnung 1.8 also another databases will be supported )
 MySQL 5 or 4
@@ -40,17 +23,13 @@ MySQL 5 or 4
 MailServer:
 e. g. Postfix, Exim, Sendmail ...
 
-------
 Client
-------
 
 Browser:
 e. g. Firefox, Konqueror, Safari, Opera, Google Chrome ...
 ( Javascript must be enabled )
 
 PDF-Reader
-
-------
 
 Important note:
 Under Configuration/Settings please enter a correct E-Mail address,
@@ -67,14 +46,10 @@ $Smtp["password"] = "";
 If your mail server needs authentication, so please change
 $Smtp["auth"] = true; and set $Smtp["username"] and $Smtp["password"]
 
-#####
-
 Important note:
 
 Questions to (open_basedir, safe_mode etc.) have nothing to do
 with phpRechnung and will not be answered any more.
-
-#####
 
 Unpack phpRechnung_1_6_4.tar.gz - tar zxvf phpRechnung_1_6_4.tar.gz
 Copy the directory ' phpRechnung_1_6_4 ' to your Web server e. g. /var/www
@@ -84,10 +59,9 @@ Copy the directory ' phpRechnung_1_6_4 ' to your Web server e. g. /var/www
 
 !!! IMPORTANT NOTE !!!
 
-Since phpRechnung 1.6 RC1 Smarty Template engine is used.
-Still some changes must be made in order to work.
+Since phpRechnung 1.6 RC1, Smarty Template engine is used, but there are still some changes must be made in order to make it work.
 
-The Webserver must have write access for following directories
+The webserver must have write access for following directories
 '/include/smarty/cache' and '/include/smarty/templates_c'
 
 It is recommended (but not mandatory) to place these directories
@@ -140,12 +114,10 @@ Import has been successfully finished, 127 queries executed.
 Please don't insert the SQL file into the field Run SQL query/queries on database.
 The data will be inserted without any errors, but thereafter, a login is no longer possible.
 
-
 The following files must be changed
 in order to access your new database ' phpinvoice '.
 
 In the directory ' /include '
-
 ' dbconf.php ' for the data base connection
 _DBHOST z. B. "localhost"
 _DBUSER z. B. "username"
@@ -178,16 +150,11 @@ Login:
 
 Administrator: admin, admin
 
-The user data are stored encrypted in the table 'user'
+The user data are stored encrypted in the table 'user'.
 
 After the first login you will be prompted to accept
-the phpRechnung License ( GPL V2 ).
-
-This is needed only once per user.
-
-The administrator password can be changed
-only the user name ' admin ' may not be changed.
-Otherwise you will not be able to access many sites.
+the phpRechnung License ( GPL V2 ). This is needed only once per user.
+The administrator password can be changed, but the user name ' admin ' may not be changed, otherwise you will not be able to access many sites.
 
 ####################
 
@@ -199,7 +166,3 @@ phpRechnung homepage - http://www.loenshotel.de/phpRechnung/
 If you wish to subscribe to new releases please go to
 http://freshmeat.net/projects/phprechnung/ and register
 or http://lists.sourceforge.net/lists/listinfo/phprechnung-news
-
-Thank you for using phpRechnung
-
-Edy Corak < edy at loenshotel dot de >
