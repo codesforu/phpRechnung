@@ -8,32 +8,23 @@ This program is free software; you can redistribute it and/or modify it under th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.  
 You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA  
 
-To install phpRechnung 1.6.4 you will need:  
+Requirements:
+--------
+To install phpRechnung 1.6.4 you need:  
 
-Server
-- Web server:
-- Apache, Lighttpd oder auch ( Microsoft IIS - not tested )
+Server side
+- Web server: Apache, Lighttpd or Microsoft IIS (not tested)
+- PHP 5 or 7 ( mbstring, PEAR::Mail, Mail_Mime is required )
+- MySQL 5 or 7 (Starting from phpRechnung 1.8 also another databases will be supported)
+- MailServer: Postfix, Exim, Sendmail, etc.
 
-- PHP:
-- PHP 5 - ( mbstring, PEAR::Mail, Mail_Mime is required )
-
-MySQL: ( Starting from phpRechnung 1.8 also another databases will be supported )
-MySQL 5 or 4
-
-MailServer:
-e. g. Postfix, Exim, Sendmail ...
-
-Client
-
-Browser:
-e. g. Firefox, Konqueror, Safari, Opera, Google Chrome ...
-( Javascript must be enabled )
-
-PDF-Reader
+Client side
+- Browser: Firefox, Konqueror, Safari, Opera, Google Chrome, etc.(Javascript must be enabled)
+- PDF-Reader
 
 Important note:
 Under Configuration/Settings please enter a correct E-Mail address,
-otherwise you will have problems sending e-mail's.
+otherwise you will have problems sending e-mails.
 
 The configuration file ' mail.inc.php ' can be found in the /include directory.
 
