@@ -8,7 +8,7 @@ This program is free software; you can redistribute it and/or modify it under th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.  
 You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA  
 
-Requirements:
+Requirements
 --------
 To install phpRechnung 1.6.6 you need:  
 
@@ -22,6 +22,8 @@ Client side
 - Browser: Firefox, Konqueror, Safari, Opera, Google Chrome, etc.(Javascript must be enabled)
 - PDF-Reader
 
+Instructions
+--------
 Important note:
 Under Configuration/Settings please enter a correct E-Mail address,
 otherwise you will have problems sending e-mails.
