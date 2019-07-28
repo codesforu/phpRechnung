@@ -3,7 +3,7 @@ phpRechnung
 phpRechnung is an easy-to-use, web-based multilingual accounting software.
 
 README-EN - 31.01.2011 Copyright © 2001 - 2011 Edy Corak edy@loenshotel.de  
-Edited on 28.7.2019 © 2019 codesforu@github.com  
+Edited on 28.7.2019 © 2019 https://github.com/codesforu  
 
 Licence
 --------
