@@ -33,11 +33,11 @@ otherwise you will have problems sending e-mails.
 
 The configuration file ' mail.inc.php ' can be found in the /include directory.
 
-> $Smtp["host"] = "yourmailserver";
-> $Smtp["port"] = "25";
-> $Smtp["auth"] = false;
-> $Smtp["username"] = "";
-> $Smtp["password"] = "";
+> $Smtp["host"] = "yourmailserver";  
+> $Smtp["port"] = "25";  
+> $Smtp["auth"] = false;  
+> $Smtp["username"] = "";  
+> $Smtp["password"] = "";  
 
 If your mail server needs authentication, so please change
 $Smtp["auth"] = true; and set $Smtp["username"] and $Smtp["password"]
