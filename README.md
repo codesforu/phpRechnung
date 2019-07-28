@@ -10,7 +10,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 Requirements:
 --------
-To install phpRechnung 1.6.4 you need:  
+To install phpRechnung 1.6.6 you need:  
 
 Server side
 - Web server: Apache, Lighttpd or Microsoft IIS (not tested)
