@@ -1,7 +1,7 @@
 phpRechnung
 ========
 
-README-EN - 31.01.2011
+README-EN - 31.01.2011  
 phpRechnung is an easy-to-use, web-based multilingual accounting software.  
 Copyright (C) 2001 - 2011 Edy Corak < edy@loenshotel.de >  
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.  
